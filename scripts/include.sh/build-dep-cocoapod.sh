@@ -1,5 +1,8 @@
 #!/bin/sh
 
+export ARCHS="arm64"
+export TARGETED_DEVICE_FAMILY="1"
+
 build_git_ios()
 {
   if test "x$name" = x ; then
